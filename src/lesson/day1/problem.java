@@ -13,3 +13,20 @@ public class problem {
 
 
 */
+
+abstract class Vehicle{
+    abstract void  run();
+}
+
+
+class Car extends Vehicle{
+
+    @Override
+    void run() {
+        System.out.println(" this is run method from car");
+    }
+    int func(){
+
+        return 100;
+    }
+}
