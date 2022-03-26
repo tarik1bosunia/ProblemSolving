@@ -172,3 +172,43 @@ class HypotExample4
         System.out.println(Math.hypot(a, b));
     }
 }
+class GetExponentExample1
+{
+    public static void main(String[] args)
+    {
+        double a = 9;
+        // Input double value, Output exponent of it
+        System.out.println(Math.getExponent(a));
+    }
+}
+class IEEEremainderExample1
+{
+    public static void main(String[] args)
+    {
+        double a = 8.6;
+        double b = 4.2;
+        System.out.println(Math.IEEEremainder(a, b));
+    }
+}
+
+class IEEEremainderExample3
+{
+    public static void main(String[] args)
+    {
+        double a = 1.0/0;
+        double b = 5;
+        // First argument is infinity, Output NaN
+        System.out.println(Math.IEEEremainder(a, b));
+    }
+}
+
+class AddExactExample1
+{
+    public static void main(String[] args)
+    {
+        int a = 10;
+        int b = 737;
+        // Input two positive value, Output addition of a and b
+        System.out.println(Math.addExact(a, b));
+    }
+}
